@@ -45,4 +45,4 @@ ft.training_args.max_grad_norm=0.3
 ft.training_args.learning_rate=2e-4
 
 # Execute training and save adapter
-ft.train(tuning_data, "prediction", os.getenv("/home/cdsw/adapters/bloom1b1-lora-instruct")
+ft.train(tuning_data, "prediction", os.getenv("/home/cdsw/adapters/bloom1b1-lora-detox")
